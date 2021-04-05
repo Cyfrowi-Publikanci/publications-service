@@ -5,7 +5,7 @@
 * [Docker](https://github.com/Cyfrowi-Publikanci/publications-service#docker)
 * [Test](https://github.com/Cyfrowi-Publikanci/publications-service#test)
 * [Proto](https://github.com/Cyfrowi-Publikanci/publications-service#proto)
-* [Access service](https://github.com/Cyfrowi-Publikanci/publications-service#access-ervice)
+* [Access service](https://github.com/Cyfrowi-Publikanci/publications-service#access-service)
 
 <br/>
 
