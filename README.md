@@ -36,7 +36,7 @@ cp .env.example .env.compose
 cp .env.example .env
 ```
 
-In .env file set SERVICE_HOSTNAME=localhost.
+In .env file set SERVICE_HOSTNAME=localhost.<br/>
 In file .env and .env.compose add missing values.
 
 <br/>
@@ -156,7 +156,7 @@ yarn proto
 
 ## Access service:
 
-If a specific method requires an rpc call to different service the error will be thrown.
+If a specific method requires an rpc call to different service the error will be thrown.<br/>
 To set up locally all services  refer to: https://github.com/Cyfrowi-Publikanci/pub-lab/blob/master/README.md
 
 https://github.com/uw-labs/bloomrpc
