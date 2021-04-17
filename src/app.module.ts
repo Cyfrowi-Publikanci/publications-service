@@ -1,15 +1,16 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
+import { ConfigModule as NestConfigModule } from '@nestjs/config';
 
-import { config } from 'config/configuration';
 import { PublicationsModule } from './publications/publications.module';
+import { ConfigModule } from '@app/config/config.module';
 
 @Module({
   imports: [
     PublicationsModule,
-    ConfigModule.forRoot({
-      load: [config],
+    NestConfigModule.forRoot({
+      isGlobal: true
     }),
+    ConfigModule
   ],
 })
 export class AppModule {}
