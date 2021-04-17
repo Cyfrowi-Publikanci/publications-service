@@ -6,6 +6,7 @@
 * [Test](https://github.com/Cyfrowi-Publikanci/publications-service#test)
 * [Proto](https://github.com/Cyfrowi-Publikanci/publications-service#proto)
 * [Access service](https://github.com/Cyfrowi-Publikanci/publications-service#access-service)
+* [Databases](https://github.com/Cyfrowi-Publikanci/pub-lab#databases)
 
 <br/>
 
