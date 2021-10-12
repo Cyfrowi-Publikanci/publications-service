@@ -19,9 +19,9 @@ jobs:
         - run:
             name: build and push Docker image
             command: |
-              docker build -t kcc112/admin-service:latest .
+              docker build -t kcc112/publications-service:latest .
               echo "$DOCKER_PASSWORD" | docker login --username $DOCKER_LOGIN --password-stdin
-              docker push kcc112/admin-service:latest
+              docker push kcc112/publications-service:latest
 
 workflows:
   base:
